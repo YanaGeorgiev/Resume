@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/29f2f8892a.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- styles -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Personal Resume</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="nav" id="nav">
+      <div class="nav-center">
+        <div class="nav-header">
+          <button class="nav-btn" id="nav-btn">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+        <!-- nav-links -->
+        <ul class="nav-links">
+          <li>
+            <a href="#about">about</a>
+          </li>
+          <li>
+            <a href="#skills">skills</a>
+          </li>
+          <li>
+            <a href="#projects">projects</a>
+          </li>
+          <li>
+            <a href="#contact">contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+    <!-- sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div>
+        <button class="close-btn" id="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <!-- sidebar-links -->
+        <ul class="sidebar-links">
+          <li>
+            <a href="#about">about</a>
+          </li>
+          <li>
+            <a href="#skills">skills</a>
+          </li>
+          <li>
+            <a href="#projects">projects</a>
+          </li>
+          <li>
+            <a href="#contact">contact</a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <!-- hero section -->
+    <header>
+      <div class="hero">
+        <div class="section-center hero-section">
+          <div class="img-container">
+            <img
+              src="./undraw_creative_woman_re_u5tk.svg"
+              alt=""
+              class="img hero-img"
+            />
+          </div>
+          <div class="main-text">
+            <div class="first-text">
+              <h1>Hello!</h1>
+            </div>
+            <div class="second-text">
+              <h1>My name is Yana</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- About -->
+    <section class="about-section" id="about">
+      <div class="section-center about">
+        <article class="about-text">
+          <div class="section-title">
+            <h2>about me</h2>
+          </div>
+          <p>
+            I am learning web developer based in Germany. I have a bachelor's
+            degree in fashion design and a strong passion for all types of
+            design. Creativity is perhaps my strongest trait. Recently
+            discovered how many web design opportunities it offers and how
+            easily and quikly you can present your ideas.I have been doing web
+            development since March 2022 and this resume shows what i have learn
+            so far , and to be honest i am no longer sure if one life will be
+            enough for what i still want to learn.Of course for me practice is
+            the best teacher, so i will be very happy if i have the opportunity
+            to be part of your team.
+          </p>
+          <p class="more">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+            maiores nisi eligendi adipisci nulla. Ullam atque exercitationem
+            maiores beatae quos iusto numquam aspernatur? Laboriosam error
+            ullam, consequatur ex consectetur ipsum.
+          </p>
+
+          <div class="btn-container">
+            <button class="read-btn">Read more</button>
+            <button class="read-btn less-btn">Show less</button>
+          </div>
+        </article>
+        <article class="about-img">
+          <img src="./about-img.svg" alt="" class="img" />
+        </article>
+      </div>
+    </section>
+    <!-- Skills -->
+    <section class="skill-section" id="skills">
+      <div class="section-center skill">
+        <article class="skills-img">
+          <img src="./skills-img.svg" alt="" class="img" />
+        </article>
+        <article class="skills-info">
+          <h2>Skills</h2>
+          <div class="skills-container">
+            <span class="skill-icon"
+              ><i class="fa-brands fa-html5"></i> HTML</span
+            >
+            <!-- <p>Intermediate</p> -->
+            <span class="skill-icon"
+              ><i class="fa-brands fa-css3-alt"></i> CSS</span
+            >
+            <!-- <p>Intermediate</p> -->
+            <span class="skill-icon"
+              ><i class="fa-brands fa-bootstrap"></i> Bootstrap</span
+            >
+            <!-- <p>Basic knowledge</p> -->
+            <span class="skill-icon"
+              ><i class="fa-brands fa-js-square"></i> JavaScript</span
+            >
+            <!-- <p>Currently learning</p> -->
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- Projects -->
+    <section class="section projects" id="projects">
+      <!-- section title -->
+      <div class="section-title">
+        <h2>projects</h2>
+      </div>
+      <!-- end of section title -->
+      <div class="section-center projects-center">
+        <!-- single project -->
+        <div class="card">
+          <!-- front of the card -->
+          <div class="card-side card-front">
+            <img class="img" src="./images/project-1.jpg" alt="" />
+            <div class="card-info">
+              <h4>Internet Provider</h4>
+              <p>
+                This is a website based on my basic skills with HTML and CSS.
+                Functionality is very simple according to my knowledge with
+                JavaScript till that moment.
+              </p>
+              <div class="card-footer">
+                <div class="icons-container">
+                  <i class="fa-brands fa-html5 icon"></i>
+                  <i class="fa-brands fa-css3-alt icon"></i>
+                  <i class="fa-brands fa-js-square icon"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card back -->
+          <div class="card-side card-back">
+            <button class="btn">
+              <a href="https://internet-provider.netlify.app/" target="_blank"
+                >Explore</a
+              >
+            </button>
+          </div>
+        </div>
+        <!--end of single project -->
+      </div>
+    </section>
+    <!-- Contact -->
+    <section class="section contact-section" id="contact">
+      <article class="section-center contact">
+        <div class="img-container">
+          <img src="./contact-img.svg" class="img" alt="" />
+        </div>
+        <div class="contact-info">
+          <h2>Say Hello</h2>
+          <form action="https://formspree.io/f/mwkzkkpv" method="post">
+            <div class="input-group">
+              <input type="text" id="name" name="name" required />
+              <label for="name"><i class="fas fa-user"></i> Your Name</label>
+            </div>
+
+            <div class="input-group">
+              <input type="email" id="email" name="email" required />
+              <label for="email"
+                ><i class="fas fa-envelope"></i> Your Email</label
+              >
+            </div>
+            <div class="input-group">
+              <textarea
+                id="message"
+                rows="8"
+                name="message"
+                required
+              ></textarea>
+              <label for="message"
+                ><i class="fas fa-comments"></i> Your Message</label
+              >
+            </div>
+            <button type="submit" class="submit-btn">
+              <i class="fas fa-paper-plane"></i> Submit
+            </button>
+          </form>
+        </div>
+      </article>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <ul class="social-icons">
+        <li>
+          <a target="_blank" href="https://www.facebook.com"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/feed/?trk=sem-bi_campid%3D437062628_asid%3D1289727562490395_crid%3D80608075889496_kw%3Dlinkedin_d%3Dc_tid%3Dkwd-80608210491938%3Aloc-72_n%3Do_mt%3De_geo%3D130206_slid%3D"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </li>
+        <li>
+          <a target="_blank" href="https://github.com/"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </li>
+      </ul>
+      <p>&copy; <span id="date"></span> Yana Georgiev. All rights reserved.</p>
+    </footer>
+    <!-- button to top -->
+    <button
+      onclick="topFunction()"
+      class="btn top-btn"
+      id="myBtn"
+      title="Go to top"
+    >
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <!-- script -->
+    <script src="./app.js"></script>
+  </body>
+</html>
